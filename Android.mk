@@ -26,14 +26,5 @@
  # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  ##
 
-ARCHE_ROOT := $(CURDIR)
-FDK_PATH := $(ARCHE_ROOT)/vendor/google/unipro-firmware
-
-T_PATH := $(call my-dir)
-
-MIRACL_TOPDIR := $(FDK_PATH)/bootrom/common/vendors/MIRACL
-APP_MCL_CONFIG_DIR := $(ARCHE_ROOT)/$(T_PATH)/mcllib/cfg
-MCL_DEF_PATH := $(ARCHE_ROOT)/$(T_PATH)/mcllib
-
 include $(call all-subdir-makefiles)
 

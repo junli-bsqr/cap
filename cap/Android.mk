@@ -28,8 +28,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-include $(MCL_DEF_PATH)/Make.def
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := mcltest
 LOCAL_SRC_FILES := mcltest.c
